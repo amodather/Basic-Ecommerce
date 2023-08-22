@@ -1,0 +1,5 @@
+.col-3 .card img{
+    height: 300px;
+    object-fit: contain;
+    padding: 5px;
+}
