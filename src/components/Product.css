@@ -1,5 +1,92 @@
-.col-3 .card img{
+.col-3 .card img {
     height: 300px;
     object-fit: contain;
     padding: 5px;
+}
+
+
+.nav-filter button {
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    transition: 0.1s ease-in-out
+}
+
+.nav-filter button:hover {
+    color: gray
+}
+
+.promo-code {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid rgb(190, 190, 190)
+}
+
+.checkout-btn {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    margin: 10px auto;
+    background-color: #ffc107;
+    font-weight: 400;
+    transition: 0.2s ease-in-out;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.checkout-btn:hover {
+    background-color: #e7ae05;
+}
+
+.empty-cart-img {
+    height: 300px; 
+    object-fit: contain;
+}
+.search-bar{
+    width: 100%;
+    padding: 6px 12px;
+    border: 0.8px solid #dee2e6;
+    border-right: none;
+    outline: none;
+}
+.search-cont{
+    transition: 0.02s;
+}
+.search-cont:hover{
+    outline: 3px solid rgba(0, 0, 255, 0.1);
+}
+.search-bar:focus ~ .search-cont{
+    outline: 3px solid rgba(0, 0, 255, 0.1);
+}
+.search-icon{
+    font-size: 42px;
+    place-items: center;
+    background-color: transparent;
+    border: 0.8px solid #dee2e6;
+    border-left: none;
+    padding: 6px 12px;
+}
+.search-list{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    width: 100%;
+    max-height: 250px;
+    overflow-y: auto;
+    padding: 5px;
+    background-color: #fafafa;
+    z-index: 100;
+    position:absolute;
+}
+.search-list .search-result{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    background-color: transparent;
+    transition: 0.2s ease-in-out;
+}
+.search-list .search-result:hover{
+    background-color: #dee2e6
 }

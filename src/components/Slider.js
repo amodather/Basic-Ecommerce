@@ -1,6 +1,6 @@
-import Image1 from './Images/image-1.jpeg'
-import Image2 from './Images/image-2.png'
-import Image3 from './Images/image-3.png'
+import Image1 from './Images/image-4.jpg'
+import Image2 from './Images/image-5.jpg'
+import Image3 from './Images/image-3.jpg'
 import './slider.css';
 function Slider()
 {
